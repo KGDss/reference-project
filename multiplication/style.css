@@ -26,6 +26,7 @@ body{
     padding: 10px;
     border: solid 4px firebrick;
     color: firebrick;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .input::placeholder{
