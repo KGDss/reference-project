@@ -4,4 +4,60 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.form{
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px firebrick;
+    color: firebrick;
+}
+
+.input::placeholder{
+    color: lightcoral;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    margin-top: 15px ;
+    background-color: firebrick;
+    color: white;
+    border: none;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(.9);
+}
+
+.btn:active{
+    transform: translateY(1px);
+}
+
+.score{
+    color:firebrick;
+    text-align: right;
+}
+
